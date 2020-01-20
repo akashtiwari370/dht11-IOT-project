@@ -1,0 +1,51 @@
+Components Required
+
+
+Arduino Uno
+ESP8266 WiFi Module
+DHT11 Sensor
+Breadboard
+Jumper Wires
+
+
+Step 1: ThingSpeak Setup for Temperature and Humidity Monitoring
+login into an account 
+For creating your account go to www.thinspeak.com
+
+
+Step 2: Create a Channel for Your Data
+click New Channel
+Name -DHT11
+Field1-Temperature
+Field2-Humidity
+
+
+Step 3: API Key
+Copy the API key from the API index to the program.
+
+
+
+Connections are given in below table: 
+
+S.NO.          Pin Name            Arduino Pin
+
+1              ESP8266 VCC           3.3V
+
+2              ESP8266 RST           3.3V
+
+3              ESP8266 CH-PD         3.3V
+
+4              ESP8266 RX            TX
+
+5              ESP8266 TX            RX
+
+6              ESP8266 GND           GND
+
+7              DHT-11 VCC            5V
+
+8              DHT-11 Data           5
+
+9              DHT-11 GND            GND
+
+
+
